@@ -1,10 +1,10 @@
 .header {
+  color: #ef8354;
   position: fixed;
-  background-color: #ef8354;
+  background-color: #f7ca1500;
   width: 100%;
   height: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
