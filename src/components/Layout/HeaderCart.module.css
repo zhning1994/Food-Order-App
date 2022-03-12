@@ -1,0 +1,37 @@
+.cart {
+  position: relative;
+  display: flex;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  color: #ef8354;
+  background-color: #f7ca1500;
+  margin: 0 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 3.125rem;
+  height: 3.125rem;
+  box-shadow: 3px 3px 6px #ef8354, -2px -3px 4px #f8ebe5;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+.cart___badge {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #ef8354;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  top: -1px;
+  right: -14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
