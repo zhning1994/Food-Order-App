@@ -1,0 +1,12 @@
+.brand___container {
+  width: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.brand___logo {
+  color: #ef8354;
+  max-width: 24%;
+  max-height: 254%;
+  object-fit: scale-down;
+}

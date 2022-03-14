@@ -1,5 +1,6 @@
 import classes from './Header.module.css';
 import HeaderCart from './HeaderCart';
+import Brand from './Brand';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,15 +8,15 @@ const Header = (props) => {
   return (
     <>
       <header className={classes.header}>
-        <h1>MComida</h1>
-        <div>
-          <h3>Home</h3>
-          <h3>Promotions</h3>
-          <h3>Menu</h3>
-          <h3>Contact</h3>
-        </div>
+        <Brand />
+        <div>Home</div>
+        <div>Menu</div>
+        <div>Services</div>
+        <div>Contact</div>
         <div>
           <FontAwesomeIcon size='xl' icon={faMagnifyingGlass} />
+        </div>
+        <div>
           <HeaderCart />
         </div>
       </header>
