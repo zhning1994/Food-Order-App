@@ -9,10 +9,14 @@ const Header = (props) => {
     <>
       <header className={classes.header}>
         <Brand />
-        <div>Home</div>
-        <div>Menu</div>
-        <div>Services</div>
-        <div>Contact</div>
+        <div className={classes.header___item}>
+          <ul className={classes.list}>
+            <li className={classes.listItem}>Home</li>
+            <li className={classes.listItem}>Menu</li>
+            <li className={classes.listItem}>Services</li>
+            <li className={classes.listItem}>Contact Us</li>
+          </ul>
+        </div>
         <div>
           <FontAwesomeIcon size='xl' icon={faMagnifyingGlass} />
         </div>
