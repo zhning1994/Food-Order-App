@@ -1,0 +1,141 @@
+.arrowLeft,
+.arrowRight {
+  max-width: 3%;
+  max-height: 3%;
+  object-fit: contain;
+  filter: invert(62%) sepia(72%) saturate(1216%) hue-rotate(325deg)
+    brightness(99%) contrast(89%);
+}
+
+.zeroWaste {
+  color: #f7cb15;
+  font-weight: 700;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px;
+  box-shadow: 3px 3px 6px #ef8354, -2px -3px 4px #f7f0ed;
+}
+
+.featuresContainer {
+  display: flex;
+  height: calc(100vh-5rem);
+  margin: 1rem 3.8rem;
+  position: relative;
+}
+
+.featuresAside {
+  flex: 1;
+}
+
+.slogan {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #3a3335;
+  text-align: left;
+  margin: 2rem 0;
+}
+
+span.slogan___my {
+  color: #f7cb15;
+}
+
+.food___container {
+  flex: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-content: stretch;
+  grid-gap: 1.5rem 0;
+}
+
+.food1,
+.food5,
+.food8,
+.food11 {
+  width: 110%;
+  height: auto;
+  border-radius: 10%;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: -3px -3px 7px #f7f0ed, 3px 3px 5px #ef8354;
+}
+
+.food1 {
+  justify-items: stretch;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.food5 {
+  justify-items: stretch;
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+.food8 {
+  justify-items: stretch;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.food11 {
+  justify-items: stretch;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.food1img,
+.food5img,
+.food8img,
+.food11img {
+  border-radius: 10%;
+}
+
+h5 {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 3px;
+  color: #ef8354;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem;
+  color: #3a3335;
+}
+
+.priceTag {
+  font-weight: bold;
+}
+
+.caption {
+  color: #3a3335;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+button.btn {
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  color: #ffffff;
+  width: auto;
+  height: 3.125rem;
+  padding: 0 1rem;
+  box-shadow: 0 0 0 0 rgba(red, green, blue, alpha);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ef8354;
+  background-image: linear-gradient(
+    225deg,
+    #f7cb15 0%,
+    #ef8354 50%,
+    #d95d39 100%
+  );
+}
