@@ -11,7 +11,7 @@ const Features = () => {
     <section className={classes.featuresContainer}>
       <div className={classes.featuresAside}>
         <div className={classes.zeroWaste}>
-          Zero Waste Delivery{' '}
+          Zero Waste Delivery
           <span>
             <FontAwesomeIcon icon={faRecycle} />
           </span>

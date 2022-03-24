@@ -14,6 +14,11 @@
   width: fit-content;
   padding: 10px;
   box-shadow: 3px 3px 6px #ef8354, -2px -3px 4px #f7f0ed;
+  margin: 0;
+}
+
+.zeroWaste span {
+  padding-left: 0.5rem;
 }
 
 .featuresContainer {
