@@ -23,6 +23,9 @@ const Header = (props) => {
         <div>
           <HeaderCart />
         </div>
+        <div>
+          Sign In
+        </div>
       </header>
     </>
   );
