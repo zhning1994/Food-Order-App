@@ -1,0 +1,18 @@
+.btnAddRemove {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(
+    225deg,
+    #f7cb15 0%,
+    #ef8354 50%,
+    #d95d39 100%
+  );
+  width: 4.5rem;
+  height: 2rem;
+  border-radius: 10%;
+}
+
+.btnAddRemove span {
+  font-weight: 500;
+}
